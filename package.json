@@ -1,0 +1,35 @@
+{
+  "name": "khutorok-viun",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfetisova/khutorok-viun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfetisova/khutorok-viun.git"
+  },
+  "homepage": "https://github.com/tfetisova/khutorok-viun.git",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-js-minify": "0.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-wrap": "^0.15.0",
+    "imgminify": "^1.1.0"
+  },
+  "dependencies": {},
+  "description": ""
+}
