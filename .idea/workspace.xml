@@ -2,14 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3122a51a-3aaa-4425-96bd-00c977b0e4e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/back-to-top 50-50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/back-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/menu-close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/mobile-menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/spritesheet-menu-icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="khutorok-viun" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,9 +38,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Projects\khutorok-viun\src\img" />
+      <recent name="C:\Users\User\Desktop\Projects\khutorok-viun" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -39,7 +59,9 @@
       <option name="presentableId" value="Default" />
       <updated>1628064298450</updated>
       <workItem from="1628064300287" duration="1101000" />
-      <workItem from="1629998349708" duration="1201000" />
+      <workItem from="1629998349708" duration="3260000" />
+      <workItem from="1630589003745" duration="738000" />
+      <workItem from="1630939188391" duration="10687000" />
     </task>
     <servers />
   </component>
@@ -47,10 +69,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1230" y="-18" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1630942390958">
+      <screen x="-1920" y="-305" width="1920" height="1080" />
+    </state>
+    <state x="-1230" y="-18" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738/-1920.-305.1920.1080@-1920.-305.1920.1080" timestamp="1630942390958" />
     <state x="470" y="135" key="FileChooserDialogImpl" timestamp="1629999311025">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="470" y="135" key="FileChooserDialogImpl/0.0.1366.738/-1920.-305.1920.1080@0.0.1366.738" timestamp="1629999311025" />
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1630943589226">
+      <screen x="-1920" y="-305" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-305.1920.1080@-1920.-305.1920.1080" timestamp="1630943589226" />
+    <state width="1328" height="176" key="GridCell.Tab.0.bottom/0.0.1366.738/-1920.-305.1920.1080@0.0.1366.738" timestamp="1630050254064" />
+    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1630943589226">
+      <screen x="-1920" y="-305" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-305.1920.1080@-1920.-305.1920.1080" timestamp="1630943589226" />
+    <state width="1328" height="176" key="GridCell.Tab.0.center/0.0.1366.738/-1920.-305.1920.1080@0.0.1366.738" timestamp="1630050254063" />
+    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1630943589226">
+      <screen x="-1920" y="-305" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-305.1920.1080@-1920.-305.1920.1080" timestamp="1630943589226" />
+    <state width="1328" height="176" key="GridCell.Tab.0.left/0.0.1366.738/-1920.-305.1920.1080@0.0.1366.738" timestamp="1630050254063" />
+    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1630943589226">
+      <screen x="-1920" y="-305" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-305.1920.1080@-1920.-305.1920.1080" timestamp="1630943589226" />
+    <state width="1328" height="176" key="GridCell.Tab.0.right/0.0.1366.738/-1920.-305.1920.1080@0.0.1366.738" timestamp="1630050254064" />
     <state x="191" y="23" key="SettingsEditor" timestamp="1629999325090">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

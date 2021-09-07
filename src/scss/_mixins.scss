@@ -1,0 +1,14 @@
+@mixin flexContainer-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin cta {
+  font-family: inherit;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  transition: all .15s ease-out;
+}

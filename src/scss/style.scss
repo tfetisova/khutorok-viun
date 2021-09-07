@@ -1,0 +1,100 @@
+@import "variables";
+@import "mixins";
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 14px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  color: $PRIMARY_TEXT_COLOR;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1136px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 32px;
+  margin-top: 40px;
+}
+
+.topSection {
+  background: url(../img/mainBg.png) no-repeat center bottom/cover;
+  min-height: 816px;
+  color: #fff
+}
+
+.logo {
+  font-family: 'Lobster', cursive;
+  font-size: 56px;
+  text-shadow: $PRIMARY_BOX_SHADOW;
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, .2);
+  backdrop-filter: blur(4px);
+}
+
+.headerContact {
+  @include cta;
+  @include flexContainer-center;
+  border-radius: 50px;
+  height: 48px;
+  border: 1px solid #fff;
+  padding: 20px;
+  font-size: 18px;
+  text-shadow: $PRIMARY_BOX_SHADOW;
+
+  &:link,
+  &:visited {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  &:hover,
+  &:active {
+    text-decoration: underline;
+  }
+}
+
+.topSectionHeader,
+.topSectionText {
+  width: 100%;
+  max-width: 680px;
+}
+
+.topSectionHeader {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-top: 15%;
+  font-weight: 700;
+  text-shadow: $PRIMARY_BOX_SHADOW;
+  mix-blend-mode: normal;
+  backdrop-filter: blur(4px);
+}
+
+.topSectionText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  margin-top: 40px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, .25);
+}

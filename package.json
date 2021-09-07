@@ -16,20 +16,15 @@
   },
   "homepage": "https://github.com/tfetisova/khutorok-viun.git",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean": "^0.4.0",
-    "gulp-clean-css": "^4.2.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-declare": "^0.3.0",
-    "gulp-handlebars": "^5.0.2",
-    "gulp-imagemin": "^6.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-js-minify": "0.0.3",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "gulp-wrap": "^0.15.0",
-    "imgminify": "^1.1.0"
+    "sass": "^1.39.0"
   },
-  "dependencies": {},
   "description": ""
 }

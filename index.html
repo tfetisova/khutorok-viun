@@ -5,178 +5,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Montserrat:400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/style.css">
 </head>
 <body>
-<div class="page-wrap">
-    <header class="page-header" id="page-header" data-vide-bg="build/video/video">
-        <div class="container">
-            <h1 class="page-header__title"><span class="page-header__text page-header__text--yellow-text">Полотно</span>  для бігової доріжки</h1>
-            <a href="#" class="button button_big-btn">Замовити</a>
-            <a href="#main-content" class="page-header__scroll"></a>
-        </div>
-    </header>
-<main class="main-content" id="main-content">
-    <section class="navigation">
-        <div class="container container_grid container_grid-3columns">
-            <a href="/" class="logo">
-                <img src="build/img/logo.png" alt="tf-belts logo" width="145">
+<div class="topSection">
+    <div class="container">
+        <header class="mainHeader">
+            <h1 class="logo">
+                Хуторок В'юн
+            </h1>
+            <a href="tel:+380683073990" class="headerContact">
+                +38 (068) 307-39-90
             </a>
-            <span class="navigation__menu-icon-sprite navigation__sprite-mobile-menu">
-            </span>
-            <nav class="navigation__main-menu">
-                <span class="navigation__menu-icon-sprite navigation__sprite-menu-close"></span>
-                <ul class="navigation__menu-list navigation__menu-list--mobile">
-                    <li class="navigation__menu-item"><a href="#belts" class="navigation__menu-item-link">Полотна</a></li>
-                    <li class="navigation__menu-item"><a href="#order-belt" class="navigation__menu-item-link">Замовити полотно</a></li>
-                    <li class="navigation__menu-item"><a href="#" class="navigation__menu-item-link">Доставка</a></li>
-                    <li class="navigation__menu-item"><a href="#" class="navigation__menu-item-link">Установка</a></li>
-                    <li class="navigation__menu-item"><a href="#" class="navigation__menu-item-link">Оплата</a></li>
-                    <li class="navigation__menu-item"><a href="#" class="navigation__menu-item-link">Про нас</a></li>
-                    <li class="navigation__menu-item"><a href="#" class="navigation__menu-item-link">Контакти</a></li>
-                </ul>
-            </nav>
-
-
-            <a href="tel:+38(044)383-16-77" class="navigation__call">
-                <i class="navigation__call-icon fas fa-phone"></i>
-            </a>
-
-        </div>
-
-    </section>
-    <section class="belts section" id="belts">
-        <div class="container container_grid">
-            <h2 class="section-title">Полотна</h2>
-            <div class="belts__description-container">
-                <div class="belts__description-text">
-                    <h3 class="belts__description-title">Склад
-                    </h3>
-                    <p class="belts__description-main-text">Стандартне полотно - це основа з ПВХ і верхнього ребристого шару виготовленого з гуми або поліуретану, яка має закільцьовану форму з косим з'єднувальним швом і антистатичними нитками.</p>
-                </div>
-                <ul class="slider">
-                    <li class="slider__slider-item slider__description-img slider__description-img--block1"></li>
-                </ul>
-
-            </div>
-            <div class="belts__rest-advantages" style="display: none">
-                <div class="belts__description-img belts__description-img--block1-1"></div>
-                <div class="belts__description-container">
-                    <div class="belts__description-text">
-                        <h3 class="belts__description-title">Структура
-                        </h3>
-                        <p class="belts__description-main-text">Комерційне полотно має чотиришарову структуру. Верхній шар необхідний для якісного зчеплення з взуттям (часто на ньому наноситься додаткове рифлення). Слідом розташований армований шар(для міцності), контактний шар (для зниження ударних навантажень) і антистатичний шар (для зняття статичної електрики, яке виникає при терті полотна об деку).</p>
-                    </div>
-                    <div class="belts__description-img belts__description-img--block2"></div>
-                    <div class="belts__description-img belts__description-img--block2-2"></div>
-                </div>
-                <div class="belts__description-container">
-                    <div class="belts__description-text">
-                        <h3 class="belts__description-title">Косий шов
-                        </h3>
-                        <p class="belts__description-main-text">Косий шов полотна - не стукає на валах, не зміщується полотно. Шов проходить діагонально не створює звуку при роботі.</p>
-                    </div>
-                    <div class="belts__description-img belts__description-img--block3"></div>
-                </div>
-                <div class="belts__description-container">
-                    <div class="belts__description-text">
-                        <h3 class="belts__description-title">Товщина
-                        </h3>
-                        <p class="belts__description-main-text">Стандартне професійне полотно трохи товще звичайного (для домашнього використання): 2,4 мм проти 1,9 мм.</p>
-                    </div>
-                    <div class="belts__description-img belts__description-img--block4"></div>
-                </div>
-                <div class="belts__description-container">
-                    <div class="belts__description-text">
-                        <h3 class="belts__description-title">Антистатіка
-                        </h3>
-                        <p class="belts__description-main-text">Антистатическая нитка: кожні 50 мм.</p>
-                    </div>
-                    <div class="belts__description-img belts__description-img--block5"></div>
-                    <div class="belts__description-img belts__description-img--block5-1"></div>
-                </div>
-            </div>
-            <div class="belts__gradient-cover"><span class="button button_btn-more button_btn-more-read">Читати далі</span></div>
-
-        </div>
-    </section>
-    <section class="order-belt section" id="order-belt">
-        <div class="container">
-            <h2 class="section-title">Замовити полотно</h2>
-            <form class="contact-form contact-form_inline">
-                <label for="treadmill-brand-inline" class="contact-form__label">Оберіть марку бігової доріжки</label>
-                <select class="contact-form__input-field" name="treadmill-brand" id="treadmill-brand-inline">
-                    <option value="LF">Life Fitness</option>
-                    <option value="Precor">Precor</option>
-                    <option value="Star Trac">Star Trac</option>
-                    <option value="Technogym">Technogym</option>
-                    <option value="Sports Art">Sports Art</option>
-                    <option value="Cybex">Cybex</option>
-                    <option value="Cybex">Інший бренд</option>
-                </select>
-                <label for="treadmill-model-inline" class="contact-form__label">Вкажіть модель бігової доріжки або розмір полотна <span class="contact-form__label--small-italic">(необов'язково)</span></label>
-                <input class="contact-form__input-field" type="text" placeholder="Наприклад, 95T achive або 60*3400мм" id="treadmill-model-inline">
-                <span class="button button_btn-more button_btn-more-howto">Як поміряти довжину полотна?</span>
-                <div class="contact-form__howto-measure" style="display: none">
-                    <p class="contact-form__howto-measure-text">Для правильного виміру полотна Вам необхідно: </p>
-                    <ul class="contact-form__howto-list">
-                        <li>поставити на полотні мітку - білою крейдою або маркером.</li>
-                        <li>Після чого провернути полотно на валах по 130 см, і поставити другу мітку,</li>
-                        <li>після чого відміряти частину, що залишилася</li>
-                    </ul>
-                    <p class="contact-form__howto-measure-text">В середньому довжина професійного полотна для бігової доріжки - від 2900 мм до 3400 мм.</p>
-                    <iframe class="contact-form__howto-video" height="315" src="https://www.youtube.com/embed/4DU2ZYX4Zt8" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-
-
-                <p class="contact-form__message">Будь ласка, вкажіть Ваше ім'я та номер телефону для зв'язку:</p>
-                <label class="contact-form__label">
-                    <input class="contact-form__input-field" type="text" placeholder="Ім'я:" required>
-                </label>
-                <label class="contact-form__label">
-                    <input class="contact-form__input-field" type="tel" pattern="[0-9]{10}" required placeholder="0443831677">
-                </label>
-                <p class="contact-form__message contact-form__message--small-text contact-form__message--small-white-text">Після заповнення цієї форми з Вами зв'яжеться менеджер компанії у найближчий робочий час.</p>
-                <p class="contact-form__message contact-form__message--small-text contact-form__message--small-white-text">пн-пт: 9:00-21:00, сб: 10:00-16:00.</p>
-                <button type="submit" class="button button_send-form">Надіслати</button>
-
-            </form>
-
-        </div>
-    </section>
-</main>
-<form class="contact-form contact-form_mobile contact-form_fixed">
-    <button class="contact-form__btn-close"><i class="contact-form__btn-close-icon fas fa-times"></i></button>
-    <p class="contact-form__message">Будь ласка, вкажіть Ваше ім'я та номер телефону для зв'язку:</p>
-    <label class="contact-form__label">
-        <input class="contact-form__input-field" type="text" placeholder="Ім'я:" required>
-    </label>
-    <label class="contact-form__label">
-        <input class="contact-form__input-field" type="tel" pattern="[0-9]{10}" required placeholder="0443831677">
-    </label>
-    <label for="treadmill-brand" class="contact-form__label">Оберіть марку бігової доріжки</label>
-    <select class="contact-form__input-field" name="treadmill-brand" id="treadmill-brand">
-        <option value="LF">Life Fitness</option>
-        <option value="Precor">Precor</option>
-        <option value="Star Trac">Star Trac</option>
-        <option value="Technogym">Technogym</option>
-        <option value="Sports Art">Sports Art</option>
-        <option value="Cybex">Cybex</option>
-        <option value="Cybex">Інший бренд</option>
-    </select>
-    <label for="treadmill-model" class="contact-form__label">Вкажіть модель бігової доріжки або розмір полотна <span class="contact-form__label--small-italic">(необов'язково)</span></label>
-    <input class="contact-form__input-field" type="text" placeholder="Наприклад, 95T achive або 60*3400мм" id="treadmill-model">
-    <p class="contact-form__message contact-form__message--small-text">Після заповнення цієї форми з Вами зв'яжеться менеджер компанії у найближчий робочий час.</p>
-    <p class="contact-form__message contact-form__message--small-text">пн-пт: 9:00-21:00, сб: 10:00-16:00.</p>
-    <button type="submit" class="button button_send-form">Надіслати</button>
-
-</form>
-
-
-<div class="border-200vh"></div>
-<a href="#page-header" class="btn-to-top"><img src="build/img/back-to-top%2050-50.png" alt="Back to Top"></a>
+        </header>
+        <h2 class="topSectionHeader">
+            Приватна садиба "Хуторок&nbsp;В'юн" запрошує всіх поціновувачів здорового відпочинку.
+        </h2>
+        <p class="topSectionText">
+            Затишний куточок раю на землі.
+        </p>
+    </div>
 </div>
+
+
 
 <script src="build/js/script.js"></script>
 </body>
