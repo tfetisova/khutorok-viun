@@ -3,7 +3,7 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 100%;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 * {
@@ -64,8 +64,6 @@ body {
   justify-content: space-between;
   padding: 20px 0;
   background-color: rgba(0, 0, 0, 0.2);
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
 }
 
 .headerContact {
@@ -117,8 +115,6 @@ body {
   max-width: 680px;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
   mix-blend-mode: normal;
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
 }
 
 .topSectionHeader {
@@ -141,7 +137,7 @@ body {
 }
 
 .advantagesHeaderContainer {
-  padding: 200px 0 100px;
+  padding: 200px 0 50px;
   margin-top: -100px;
   background: url(../img/advantagesHeaderBg.svg) no-repeat center/cover;
   position: relative;
@@ -154,15 +150,130 @@ body {
   text-align: center;
 }
 
+.advantagesSubHeader {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
 .advantagesList {
   list-style: none;
   display: grid;
-  grid-gap: 160px;
+  grid-gap: 100px;
+  padding: 50px 0;
+}
+
+.advantageImage {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 480px;
+  height: 480px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0 20px 80px rgba(218, 218, 218, 0.6));
+  filter: drop-shadow(0 20px 80px rgba(218, 218, 218, 0.6));
+  background: no-repeat center/cover;
   position: relative;
-  z-index: -1;
+  z-index: 1;
+  margin-right: 0;
+  margin-left: 100px;
 }
 
 .advantageItem {
+  position: relative;
+}
+.advantageItem .container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.advantageItem:nth-child(even) .advantageImage {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+  margin-right: 100px;
+  margin-left: 0;
+}
+.advantageItem:nth-child(even) .advantageText {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+  -moz-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+.advantageItem:nth-child(3n+1)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 671px;
+  height: 437px;
+  background: url(../img/advantage1Bg.svg) no-repeat center/contain;
+}
+.advantageItem:nth-child(3n+2)::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 752px;
+  height: 1218px;
+  background: url(../img/advantage2Bg.svg) no-repeat center/contain;
+}
+.advantageItem:nth-child(3n+3)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 705px;
+  height: 731px;
+  background: url(../img/advantage3Bg.svg) no-repeat center/contain;
+}
+
+#advantageImage1 {
+  background-image: url(../img/advantageImage1.png);
+}
+
+#advantageImage2 {
+  background-image: url(../img/advantageImage2.png);
+}
+
+#advantageImage3 {
+  background-image: url(../img/advantageImage3.png);
+}
+
+.advantageItemHeader {
+  font-size: 36px;
+  line-height: 1.33;
+}
+
+.advantageItemDescription {
+  line-height: 1.5;
+  color: #555;
+  margin: 50px 0;
+}
+
+.advantageItemCta {
+  -webkit-filter: drop-shadow(0px 10px 20px rgba(51, 159, 186, 0.2));
+  filter: drop-shadow(0px 10px 20px rgba(51, 159, 186, 0.2));
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -173,20 +284,9 @@ body {
   -moz-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  text-align: center;
+  width: 200px;
 }
-
-.advantageImage {
-  position: relative;
-  width: 480px;
-  height: 480px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-filter: drop-shadow(0 20px 80px rgba(218, 218, 218, 0.6));
-  filter: drop-shadow(0 20px 80px rgba(218, 218, 218, 0.6));
+.advantageItemCta:link, .advantageItemCta:visited, .advantageItemCta:hover, .advantageItemCta:active {
+  color: #fff;
 }
